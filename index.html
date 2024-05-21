@@ -3,14 +3,27 @@
   <title></title>
   <style>
     body {
-      background-color: lightblue;
+      background-color: darkblue;
+    }
+    .video-container {
+      text-align: center;
+      margin-top: 50px; /* change size */
+    }
+    video {
+      width: 80%; /* change size */
+      max-width: 800px; /* change size */
+      display: block;
+      margin: 0 auto;
     }
   </style>
 </head>
 <body>
-  <div style="text-align:center;">
-    <!-- Video Embed Code -->
-    <iframe width="560" height="315" src="https://youtu.be/IeLNqCrCtWs?si=Olgwy0F3LdIGJ-Ma" frameborder="0" allowfullscreen></iframe>
+  <div class="video-container">
+    <!-- Video -->
+    <video controls>
+      <source src="your-video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
     
     <!-- Text Description -->
     <p>This is a placeholder for your video description.</p>
