@@ -1,32 +1,70 @@
-<html>
+<html lang="en">
 <head>
-  <title></title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RISK OF RAIN 2</title>
   <style>
     body {
-      background-color: darkblue;
+      margin: 0;
+      padding: 0;
+      background-image: url('your-background-image.jpg');
+      background-size: cover;
+      background-position: center;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      color: white;
+      text-align: center;
+    }
+    .video-section {
+      padding: 50px 20px;
+      text-align: center;
+      color: white;
     }
     .video-container {
-      text-align: center;
-      margin-top: 50px; /* change size */
+      margin-bottom: 50px;
     }
-    video {
-      width: 80%; /* change size */
-      max-width: 800px; /* change size */
-      display: block;
-      margin: 0 auto;
+    .video-container h2 {
+      margin-top: 0;
+    }
+    iframe {
+      width: 80%;
+      max-width: 800px;
     }
   </style>
 </head>
 <body>
-  <div class="video-container">
-    <!-- Video -->
-    <video controls>
-      <source src="your-video.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-    
-    <!-- Text Description -->
-    <p>This is a placeholder for your video description.</p>
+
+  <!-- Header -->
+  <header>
+    <h1>Welcome to Your Website</h1>
+    <p>This is the description or tagline of your website.</p>
+  </header>
+
+  <!-- Video Section -->
+  <div class="video-section">
+
+    <!-- First Video -->
+    <div class="video-container">
+      <h2>Video 1 Title</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <!-- Second Video -->
+    <div class="video-container">
+      <h2>Video 2 Title</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <!-- Third Video -->
+    <div class="video-container">
+      <h2>Video 3 Title</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_3" frameborder="0" allowfullscreen></iframe>
+    </div>
+
   </div>
+
 </body>
 </html>
